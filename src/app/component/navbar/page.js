@@ -59,7 +59,7 @@ const Navbar = () => {
           <Image
             src={image43}
             alt="foodimage"
-            className="h-[550px] w-[550px] ml-64  md:ml-44 md:h-[500] md:w-[560] xl:w-[600px] xl:h[500px] xl:ml-10  "
+            className="h-[550px] w-[550px] ml-72  md:ml-44 md:h-[500] md:w-[560] xl:w-[600px] xl:h[500px] xl:ml-10  "
           />
         </div>
 
@@ -78,7 +78,7 @@ const Navbar = () => {
 
           <div className="flex justify-start ml-96  gap-4 mt-10 md:ml-44 xl:ml-96 ">
             <div>
-              <Image src={Button} alt="button" />
+              <Image src={Button} alt="button" className="ml-20" />
             </div>
             <div>
               <button className="bg-white border-2 border-yellow-500 pt-2 h-14 w-36 text-md rounded-md bt-2 text-center pl-4 pr-4  ">

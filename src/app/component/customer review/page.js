@@ -2,13 +2,15 @@ import React from "react";
 
 import Image from "next/image";
 
-import amit1 from "/public/image/amit1.jpg"
-import Frame41 from "/public/image/Frame41.png"
+import amit1 from "/public/image/amit1.jpg";
+import Frame41 from "/public/image/Frame41.png";
 
 const Customerreview = () => {
   return (
-    <div className=" h-full w-[1270px] mx-auto p-6 sm:w-[1300px] md:w-[1200px] lg:w-[1300px] xl:w-[2000px] 
-     bg-red-600">
+    <div
+      className=" h-full w-[1270px] mx-auto p-6 sm:w-[1300px] md:w-[1200px] lg:w-[1300px] xl:w-[2000px] 
+     bg-red-600"
+    >
       <h1 className="text-center text-5xl md:text-3xl font-semibold ">
         Review form our customers say
       </h1>
@@ -17,7 +19,8 @@ const Customerreview = () => {
           <div className="flex justify-start gap-4">
             <div>
               <Image
-                src={amit1} alt="amit1"
+                src={amit1}
+                alt="amit1"
                 className="w-10 h-10 mt-6 rounded-full ml-4"
               />
             </div>
@@ -34,7 +37,7 @@ const Customerreview = () => {
           </h1>
           <div className="flex justify-start gap-4 mt-4 ml-4">
             <div>
-              <Image src={Frame41}  alt="frame41" />
+              <Image src={Frame41} alt="frame41" />
             </div>
             <div>
               <h1>5 stars</h1>
@@ -46,7 +49,8 @@ const Customerreview = () => {
           <div className="flex justify-start gap-4">
             <div>
               <Image
-                src={amit1} alt="amit1"
+                src={amit1}
+                alt="amit1"
                 className="w-10 h-10 mt-6 rounded-full ml-4"
               />
             </div>

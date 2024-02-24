@@ -16,7 +16,9 @@ const Stayintouch = () => {
         <h1 className="text-center text-2xl font-semibold p-2 xl:text-5xl">
           Login to our channel
         </h1>
-        <h1 className="text-2xl mt-8 ml-4 xl:text-center xl:text-3xl xl:mt-14 ">Email</h1>
+        <h1 className="text-2xl mt-8 ml-4 xl:text-center xl:text-3xl xl:mt-14 ">
+          Email
+        </h1>
         <input
           type=" text"
           placeholder="Enter your email"
