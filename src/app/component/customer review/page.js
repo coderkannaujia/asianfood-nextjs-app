@@ -7,11 +7,12 @@ import Frame41 from "/public/image/Frame41.png"
 
 const Customerreview = () => {
   return (
-    <div className="h-[500px] bg-white ">
-      <h1 className="text-center text-3xl font-semibold ">
+    <div className=" h-full w-[1270px] mx-auto p-6 sm:w-[1300px] md:w-[1200px] lg:w-[1300px] xl:w-[2000px] 
+     bg-red-600">
+      <h1 className="text-center text-5xl md:text-3xl font-semibold ">
         Review form our customers say
       </h1>
-      <div className="flex justify-start gap-14  mt-20">
+      <div className="flex justify-start gap-14  mt-20 xl:gap-64 xl:ml-56">
         <div className="h-[300px] w-[550px] bg-white rounded-lg ml-16 ">
           <div className="flex justify-start gap-4">
             <div>

@@ -10,13 +10,13 @@ import image38 from "/public/image/image38.png"
 
 const Footer = () => {
   return (
-    <div className='h-[500px] bg-white'>
+    <div className='h-full w-[1270px] mx-auto p-4 sm:w-[1300px] md:w-[1200px] lg:w-[1300px] xl:w-[2000px]  bg-lime-400 '>
 
      
      <div className='flex justify-between mt-14'>
 
        <div>
-        <a href='#' className='font-bold text-xl ml-20'>Asian food</a>
+        <a href='#' className='font-bold  md:text-xl ml-20'>Asian food</a>
        <h1 className='ml-20 mt-10 font-semibold'>Accepted Payment</h1>
        <div className='flex justify-between gap-4 ml-16 mt-4'>
         <div><Image src={image33} alt='image33' /></div>
